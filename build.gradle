@@ -60,6 +60,10 @@ clean{
     delete file(generated)
 }
 
+jar {
+    enabled = false
+}
+
 
 
 // 리액트 관련 설정
